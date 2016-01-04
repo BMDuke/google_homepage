@@ -1,0 +1,205 @@
+body {
+  font-family: arial,sans-serif;
+  font-size:13px;
+  background-color:#fff;
+}
+
+/*Header and header elements CSS*/
+
+.header {
+  position:relative;
+  float:right;
+}
+
+.header ul li {
+  position:relative;
+  display:inline-block;
+  list-style-type:none;
+  padding:9px 10px 5px 10px;
+  margin:0;
+  float:left;
+  z-index:10;
+  horizontal-align:top;
+  counter-increment:item -1;
+}
+
+.header li a {
+ text-decoration:none;
+ color:black;
+}
+
+.header li a:hover {
+  text-decoration:underline;
+  opacity:1.0
+}
+
+#username {
+  opacity: .55;
+}
+
+#gmail a, #images a {
+  opacity: .75;
+}
+
+#img {
+  height:32px;
+  width:32px;
+  border-radius:50%;
+}
+
+#app_tab img {
+  max-height:15px;
+}
+
+#alerts img {
+  height:15px;
+}
+
+#user_icon {
+    padding:0px 10px 5px 10px;
+}
+
+/*.header {
+  position:absolute;
+  display:inline-block;
+  right:10px;
+  line-height:20px;
+  margin: 0 5px 0 5px;
+  padding: 5px 20px 5px 20px;
+}
+
+#username, #gmail, #images, #app_tab, #alerts, #user_icon {
+  display:inline;
+}
+
+ {
+  text-decoration:none;
+  color:black;
+  display:inline;
+}
+
+*/
+
+/* Content and center CSS*/
+
+.content {
+  position:relative;
+}
+
+#image img {
+  height:92px; width:272px;
+  position:relative;
+  align:left;
+  float:center;
+  clear:top;
+}
+
+#image1 {
+   background-image: url('https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png');
+  background-size: 272px 92px;
+  position:relative;
+  height:92px;
+  width:272px;
+  top:200px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#country {
+  position:relative;
+  margin:auto;
+  font-size:17px;
+  top:173px;
+  left:107px;
+  height:32px;
+  width:74px;
+  color: rgb(66,133,244);
+  text-align:center;
+  line-height:30px;
+}
+
+#search_bar {
+  height:38px;
+  width:500px; 
+  border: 1px solid #d9d9d9;
+  position:relative;
+  float:center;
+  margin: 190px auto;
+  
+}
+
+#search_bar form img {
+  height:22px;
+  position:relative;
+  float:right;
+  padding:8px 12px 5px 5px;
+}
+
+
+#search, #luck {
+  position:relative;
+  left:115px;
+  display:inline;
+  margin:5px;
+  border:1px solid #f2f2f2;
+  padding: 10px;
+  background-color:#f2f2f2;
+  font-weight:bold;
+  font-size:13px;
+  color:#737373;
+  
+}
+
+#search:hover, #luck:hover {
+  color:black;
+  border:1px solid #cccacc;
+  border-radius:2px;
+}
+
+/* #search_bar form #search, #luck {
+  display:inline-block;
+  position:relative;
+  margin: auto;
+}
+*/
+
+/* Footer CSS */
+
+.footer {
+  position:absolute;
+  bottom:0px;
+  width:100%;
+  display:block;
+  right:0px;
+  height:40px;
+  background-color:#f2f2f2;
+  border-top:1px solid #e4e4e4;
+  opacity:.85;
+}
+
+.footer .left li {
+  position:relative;
+  float:left;
+  display:inline-block;
+  bottom:0;
+  list-style:none;
+  padding:2px 10px 5px 10px;
+}
+
+.footer .right li {
+  position:relative;
+  display:inline-block;
+  float:right;
+  list-style:none;
+  padding:2px 20px 5px 10px;
+}
+
+.footer li a {
+ text-decoration:none;
+ color:#666666;
+}
+
+.footer li a:hover {
+  text-decoration:underline;
+  opacity:1.0
+}
